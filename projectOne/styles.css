@@ -1,0 +1,31 @@
+body {
+    background-color: #6441A5;
+    color: #FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+
+form {
+    background-color:  rgba(0,0,0,50%);
+    border: 1px solid rgba(0,0,0,50%);
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+label {
+    width: 100%;
+}
+
