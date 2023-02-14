@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>Project One</title>
+    </header>
+    <body>
+        <header>
+            <h1 id="title">Chatter Survey</h1>
+            <p id="description">Probbing the minds and desires of chatters everywhere.</p>
+        </header>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name-label">Username <input id='name-label' name='username' 
+                    type='text' placeholder='Enter your username' required />
+                </label>
+                <label for="email-label">Email <input id="email-label" name="email" type="email"
+                    pattern='^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$'
+                    placeholder="Enter your email" required />
+                </label>
+                <label for="number-label">Age(optional)<input id="numder-label" name="age" type="number" min="13"
+                    max="99" placeholder="Age" />
+                </label>
+
+                <label for="dropdown">How long have you been following? 
+                    <select id='dropdown' name="dropdown">
+                        <option value="">(select one)</option>
+                        <option value="1">less than 6 months</option>
+                        <option value="2">6 months - 1 year</option>
+                        <option value="3">1 - 2 years</option>
+                        <option value="4"> 2+ years</option>
+                    </select>
+                </label>
+
+                <label>Type of Chatter
+                    <label for="subbed">
+                        <input id="subbed" type="radio" name="chattype" />Subbed Chad
+                    </label>
+                    <label for="unsubbed">
+                        <input id="unsubbed" type="radio" name="chattype" />Unsubbed King 
+                    </label>
+                </label>
+
+                <label>What kind of content would you like to watch? (check all that apply)
+                    <label for='irl'>
+                        <input id="irl" type="checkbox" name="irl" value="irl" /> IRL
+                    </label>
+                    <label for="gaming">
+                        <input id="gaming" type='checkbox' name="gaming" value="gaming" /> Gaming
+                    </label>
+                    <label for="music">
+                        <input id="music" type="checkbox" name="music" value="music" /> Music
+                    </label>
+                    <label for="hottub">
+                        <input id="hottub" type="checkbox" name="hottub" value="hottube" /> Hot Tubs
+                    </label>                 
+                </label>
+                <label for="else">Anything else you'd like to say
+                    <textarea id="else" name="else" placeholder="Hi! I'm a chatter, and I..."></textarea>
+                </label>
+
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
