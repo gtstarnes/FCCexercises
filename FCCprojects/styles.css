@@ -1,0 +1,83 @@
+main {
+    background-color: lightgrey;
+    margin: 2% 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header, #img-div, #tribute-info, #quote, footer {
+    width: 100%;
+}
+
+header {
+    padding-top: 15px; 
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4.0rem;
+}
+
+header p {
+    margin-top: -20px;
+    font-size: 1rem;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 95%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+img {
+    min-width: 300px;
+    min-height: 400px;
+    max-width: 80%;    
+    max-height: auto;
+    border-radius: 8px;
+
+}
+
+#img-caption {
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+#tribute-info ul {
+    width: 50%;
+    margin: 10px auto;
+    list-style-type: square;
+}
+
+#tribute-info h2 {
+    text-align: center;
+}
+
+#tribute-info li {
+    margin-bottom: 10px;
+}
+
+#quote {
+    width: 50%;
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+blockquote {
+    margin-left: 0px;
+}
+
+footer {
+    text-align: center;
+}
