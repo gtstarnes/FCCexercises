@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(205, 205, 173);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+                /*Header && Nav styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 6%;
+    margin: -10px;
+    padding: 1%;
+    position: fixed;
+    background-color: rgb(205, 205, 173);
+    font-size: 1.5rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+    margin-right: 10%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+
+#hero, #features, #video, #price, footer {
+    width: 100%;
+    margin-top: 10%;
+    border: 1px solid;
+}
+
+
+#hero {
+    text-align: center;
+    margin-top: -4%;
+}  
+
+#video, #price, .feature, .des, .price, footer{
+    display: flex;
+}
+
+.feature {
+    padding: 10px 0 0 0;
+}
+
+.des {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.des h2 {
+    margin: 0;
+}
+
+.des p {
+    margin: 0 0 5% 0;
+}
+
+.icon {
+    background-color: rgb(66, 66, 224);
+    width: 100px;
+    height: 60px;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+        /* Video Style */
+
+iframe {
+    margin: 0px auto;
+}
+
+        /* PRICE OPTION STYLING */
+
+#price {
+    justify-content: space-between;
+}
+
+.price {
+    flex-direction: column;
+    border: 1px solid;
+    align-items: center;
+    width: 30%;
+    padding-bottom: 2%;
+}
+
+.item {
+    background-color: rgb(200, 166, 166);
+    text-align: center;
+    width: 100%;
+}
+
+.price ul {
+    list-style: none;
+    margin-bottom: 10%;
+}
+
+button {
+    height: 40px;
+    width: 60%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+        /* FOOTER STYLING */
+
+footer {
+    flex-direction: column;
+    align-items: flex-end;
+}
